@@ -1,0 +1,26 @@
+.greet{
+    font-family: 'Comfortaa', cursive;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topnav{
+    background-color: #9a6852;
+    overflow: hidden;
+  }
+.topnav a{
+    font-family: 'Comfortaa', cursive;
+
+    display: inline-block;
+    float: left;
+    color: white;
+    padding: 15px 15px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.media{
+    text-align: center;
+}
