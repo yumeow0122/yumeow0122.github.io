@@ -35,3 +35,8 @@ nav a {
 .media{
     text-align: center;
 }
+.media img{
+    width: 60;
+    height: 60;
+    mix-blend-mode: multiply;    /*make white color to transparent*/
+}
