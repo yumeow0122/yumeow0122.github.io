@@ -1,3 +1,13 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+body {
+    display: flex; /*arrange object in order*/
+    flex-direction: column; /*vertical arrangement*/
+}
+
+
 .greet{
     font-family: 'Comfortaa', cursive;
 
@@ -7,7 +17,7 @@
 }
 
 nav > ul {
-    background-color: #9a6852;/*一整條的顏色*/
+    background-color: #9a6852;
     margin: 0;
     border-radius: 50px;
     padding: 0;
@@ -33,11 +43,23 @@ nav a {
     text-decoration: none;
 }
 
+.wrapper {
+    flex-grow: 1; /*fill the remaining space*/
+}
+
+
+.footer {
+    background-color: #9a6852;
+}
+
 .media{
     text-align: center;
 }
 .media img{
     width: 60;
     height: 60;
-    mix-blend-mode: multiply;    /*make white color to transparent*/
+    mix-blend-mode: multiply;/*make white color to transparent*/
+}
+.media p{
+    color: white;
 }
