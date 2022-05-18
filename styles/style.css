@@ -10,7 +10,6 @@ body {
 
 .greet{
     font-family: 'Comfortaa', cursive;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,7 +45,13 @@ nav a {
 .wrapper {
     flex-grow: 1; /*fill the remaining space*/
 }
-
+.wrapper p{
+    font-family: 'Comfortaa', cursive;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .footer {
     background-color: #9a6852;
